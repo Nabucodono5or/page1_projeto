@@ -30,7 +30,7 @@ html {
       rgba(0, 0, 0, 0.5)
     ),
     url("recursos/heroimage-unsplash-min.jpg");
-  height: 50%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,6 +38,7 @@ html {
 }
 
 .hero-text {
+  width: 70%;
   color: white;
   font-family: "Montserrant-light";
   position: absolute;
@@ -48,11 +49,69 @@ html {
 }
 
 .hero-title {
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin: 0.8rem;
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  margin: 0.8rem;
 }
 
 .text-title {
-    line-height: 1.3rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.s1 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(recursos/langshoots-Q3e5ucjJV5I-unsplash-min.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200%;
+  width: 100%;
+  padding: 1.6rem;
+}
+
+.text-sub-title {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #525353;
+  text-align: center;
+}
+
+.text-sub-title h2 {
+  margin: 1.5rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.text-sub-title p {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.box {
+    margin: 1.5rem;
+    flex: 25%;
+    background: white;
+    border-radius: 0.5rem;
+    height: 400px;
+    width: 200px;
+}
+
+.card-box {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #2a324b;
+  height: 50%;
+  width: 100%;
 }
