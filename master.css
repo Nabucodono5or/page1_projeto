@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrant-thin";
+  src: url(fonts/Montserrat-Thin.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrant-light";
+  src: url(fonts/Montserrat-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(
+      to right,
+      rgb(153, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("recursos/heroimage-unsplash-min.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  font-family: "Montserrant-light";
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0.8rem;
+}
+
+.text-title {
+    line-height: 1.3rem;
+}
