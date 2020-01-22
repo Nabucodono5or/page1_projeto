@@ -68,7 +68,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 200%;
+  height: 190%;
   width: 100%;
   padding: 1.6rem;
 }
@@ -94,20 +94,61 @@ html {
 }
 
 .box {
-    margin: 1.5rem;
-    flex: 25%;
-    background: white;
-    border-radius: 0.5rem;
-    height: 400px;
-    width: 200px;
+  margin: 1.5rem;
+  flex: 25%;
+  background: white;
+  border-radius: 0.5rem;
+  height: 400px;
+  width: 200px;
 }
 
 .card-box {
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.middle-s1 {
+  background-image: linear-gradient(rgb(155, 6, 6, 0.8), rgb(155, 6, 6, 0.8)),
+    url(recursos/langshoots-Q3e5ucjJV5I-unsplash-min.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 45%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.end-s1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8),
+  rgba(255, 255, 255, 0.8)),
+    url(recursos/langshoots-Q3e5ucjJV5I-unsplash-min.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 110%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.text-middle {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Montserrant-light";
+}
+
+.text-middle h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.text-middle p {
+  font-size: 1rem;
+  margin: 1rem;
+  line-height: 1.5rem;
 }
 
 .footer {
