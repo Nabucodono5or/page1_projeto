@@ -50,6 +50,35 @@ html {
   margin-left: 0.5rem;
 }
 
+.menu-hide {
+  font-family: "Montserrant-light";
+  padding: 1rem;
+  color: white;
+  z-index: 6;
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  right: 0;
+  background-color: #2a324b;
+}
+
+.left-hide {
+  position: absolute;
+  right: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hide-text {
+  margin: 2rem;
+}
+
+.hide-text li{
+  list-style-type: none;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 .hero-image {
   background-image: linear-gradient(
       to right,
