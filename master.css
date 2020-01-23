@@ -283,6 +283,11 @@ html {
   font-size: 0.9rem;
 }
 
+.right-footer i {
+  font-size: 1.3rem;
+  margin-right: 0.7rem;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -306,7 +311,7 @@ hr {
 .footer {
   padding: 1rem;
   background-color: #2a324b;
-  height: 90%;
+  height: 85%;
   width: 100%;
 }
 
