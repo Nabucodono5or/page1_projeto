@@ -46,11 +46,12 @@ html {
   cursor: pointer;
 }
 
-.menu-left span{
+.menu-left span {
   margin-left: 0.5rem;
 }
 
 .menu-hide {
+  visibility: hidden;
   font-family: "Montserrant-light";
   padding: 1rem;
   color: white;
@@ -73,7 +74,7 @@ html {
   margin: 2rem;
 }
 
-.hide-text li{
+.hide-text li {
   list-style-type: none;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -149,7 +150,16 @@ html {
   font-weight: normal;
 }
 
+.card-box {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .box {
+  padding: 2rem;
   margin: 1.5rem;
   flex: 25%;
   background: white;
@@ -158,12 +168,20 @@ html {
   width: 200px;
 }
 
-.card-box {
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
+.card-inner {
   text-align: center;
-  flex-wrap: wrap;
+  font-family: "Montserrant-light";
+}
+
+.card-inner i{
+  color: #ee6352;
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.card-inner h3{
+  margin: 1rem;
+  color: #4f6d7a;
 }
 
 .middle-s1 {
@@ -215,7 +233,7 @@ html {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 0.5rem;
-  margin: 1.5rem;
+  margin: 2rem 1rem;
   color: white;
 }
 
@@ -225,7 +243,8 @@ html {
 }
 
 .left-footer {
-  margin-right: 2rem;
+  margin-right: 1rem;
+  padding: 1.3rem;
 }
 
 .left-footer h2 {
@@ -239,13 +258,20 @@ html {
 }
 
 .middle-footer {
-  margin-right: 2rem;
+  margin-right: 1rem;
   font-size: 0.9rem;
 }
 
 .middle-footer li {
-  line-height: 2rem;
+  line-height: 1rem;
   list-style-type: none;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.right-footer {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .right-footer li {
@@ -280,6 +306,10 @@ hr {
 .footer {
   padding: 1rem;
   background-color: #2a324b;
-  height: 70%;
+  height: 90%;
   width: 100%;
+}
+
+.footer a:hover {
+  color: #f40000;
 }
