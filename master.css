@@ -23,6 +23,33 @@ html {
   height: 100%;
 }
 
+.menu-bar {
+  z-index: 2;
+  color: white;
+  width: 100%;
+  position: fixed;
+  padding: 0.8rem;
+  background: #2a324b;
+  font-family: "Montserrant-light";
+  font-size: 0.9rem;
+}
+
+.menu-right {
+  font-weight: bold;
+}
+
+.menu-left {
+  position: absolute;
+  right: 2rem;
+  top: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-left span{
+  margin-left: 0.5rem;
+}
+
 .hero-image {
   background-image: linear-gradient(
       to right,
@@ -222,6 +249,7 @@ hr {
 }
 
 .footer {
+  padding: 1rem;
   background-color: #2a324b;
   height: 70%;
   width: 100%;
