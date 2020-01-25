@@ -62,23 +62,28 @@ a {
 }
 
 .menu-hide {
-  /* visibility: hidden; */
   font-family: "Montserrant-light";
-  padding: 1rem;
   z-index: 6;
   position: fixed;
-  width: 30%;
+  width: 0%;
   height: 100%;
   right: 0;
+  top: 0;
   background-color: #2a324b;
+  transition: 0.5s;
 }
 
+
 .left-hide {
-  color: #b3b6b6fb;
   position: absolute;
-  right: 3rem;
+  top: 0;
+  right: -25px;
+  padding: 0;
+  color: #b3b6b6fb;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.3rem;
 }
 
 .left-hide:hover {
@@ -87,6 +92,7 @@ a {
 
 .hide-text {
   margin: 2rem;
+  padding: 1rem;
 }
 
 .hide-text li {

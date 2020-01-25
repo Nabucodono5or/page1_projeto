@@ -16,20 +16,22 @@
       <!-- <div class="industrious"></div> -->
       <div class="menu-bar">
         <p class="menu-right">Industrious</p>
-        <p class="menu-left"><i class="fas fa-bars"></i><span>Menu</span></p>
+        <p class="menu-left" onclick="showMenu()">
+          <i class="fas fa-bars"></i><span>Menu</span>
+        </p>
       </div>
-      <div class="menu-hide">
-        <div class="left-hide">X</div>
-        <div class="hide-text">
-          <ul>
-            <li class="home"><a href="">Home</a></li>
-            <hr />
-            <li class="element"><a href="">Elements</a></li>
-            <hr />
-            <li class="generic"><a href="">Generic</a></li>
-            <hr />
-          </ul>
-        </div>
+    </div>
+    <div class="menu-hide">
+      <div class="left-hide" onclick="hideMenu()">X</div>
+      <div class="hide-text">
+        <ul>
+          <li class="home"><a href="">Home</a></li>
+          <hr />
+          <li class="element"><a href="">Elements</a></li>
+          <hr />
+          <li class="generic"><a href="">Generic</a></li>
+          <hr />
+        </ul>
       </div>
     </div>
 
@@ -255,5 +257,7 @@
         <p><small>© Untitled. Photos Unsplash, Video Coverr. </small></p>
       </div>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
