@@ -23,9 +23,15 @@ html {
   height: 100%;
 }
 
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .menu-bar {
   z-index: 2;
-  color: white;
+  color: #b3b6b6fb;
   width: 100%;
   position: fixed;
   padding: 0.8rem;
@@ -35,6 +41,7 @@ html {
 }
 
 .menu-right {
+  color: white;
   font-weight: bold;
 }
 
@@ -46,15 +53,18 @@ html {
   cursor: pointer;
 }
 
+.menu-left:hover {
+  color: white;
+}
+
 .menu-left span {
   margin-left: 0.5rem;
 }
 
 .menu-hide {
-  visibility: hidden;
+  /* visibility: hidden; */
   font-family: "Montserrant-light";
   padding: 1rem;
-  color: white;
   z-index: 6;
   position: fixed;
   width: 30%;
@@ -64,10 +74,15 @@ html {
 }
 
 .left-hide {
+  color: #b3b6b6fb;
   position: absolute;
   right: 3rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.left-hide:hover {
+  color: white;
 }
 
 .hide-text {
@@ -78,6 +93,14 @@ html {
   list-style-type: none;
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.hide-text a{
+  color: #b3b6b6fb;
+}
+
+.hide-text a:hover{
+  color: white;
 }
 
 .hero-image {
@@ -173,13 +196,13 @@ html {
   font-family: "Montserrant-light";
 }
 
-.card-inner i{
+.card-inner i {
   color: #ee6352;
   font-size: 4rem;
   margin: 1rem;
 }
 
-.card-inner h3{
+.card-inner h3 {
   margin: 1rem;
   color: #4f6d7a;
 }
@@ -312,10 +335,6 @@ html {
   margin-right: 0.7rem;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
 
 hr {
   border-width: 0.1rem;
