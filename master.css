@@ -184,6 +184,30 @@ html {
   color: #4f6d7a;
 }
 
+.photo-circle {
+  border-radius: 50%;
+  height: 30%;
+  width: 50%;
+}
+
+.title-photo {
+  color: #ee6352;
+  font-size: 0.9rem;
+  margin: 1rem 0rem 0rem;
+  padding: 0.8rem;
+}
+
+.title-photo span {
+  color: #2a324b;
+  font-size: 0.7rem;
+}
+
+.text-photo {
+  color: #525353;
+  text-align: center;
+  padding: 0.8rem;
+}
+
 .middle-s1 {
   background-image: linear-gradient(rgb(153, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(recursos/middle-s1-unsplash-min.jpg);
